@@ -1,0 +1,2 @@
+EXPORTS CallX64_Native
+EXPORTS CallX64_Syscall

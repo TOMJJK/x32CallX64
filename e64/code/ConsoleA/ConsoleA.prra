@@ -1,0 +1,19 @@
+[Version]
+Version=3000
+[Project]
+Assembler=Masm
+Path=E:\cn\ConsoleA
+Group=2,-1,0,1,A,-2,-1,1,Assembly,-3,-1,1,Include,-4,-1,1,Misc,-5,-1,1,Resource
+F1=-2,2,1,-10,-33,916,482,61,ConsoleA.asm
+Open=0,1
+Api=
+C1=0
+B1=
+M1=
+[Make]
+Make=1
+0=Console Release,'/X /L<lang> $',"$R.res",'/nologo /c /Cp /I<inc> $',"$C.obj",'/nologo /machine:X64 /subsystem:console /release /entry:start /largeaddressaware:no /libpath:<lib> /OUT:$O $C $M $R',"$C.exe",'',
+1=Console Debug,'/v "$R"',"$R.res",'/c  "$C"',"$C.obj",'/nologo /machine:X64 /subsystem:console /debug /entry:main /largeaddressaware:no /libpath:<lib> /OUT:$O $C $M $R',"$C.exe",'',
+Delete=0
+IncBuild=0
+Run=0,'',''
